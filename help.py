@@ -112,8 +112,8 @@ def press():
         
     elif(y==-80):
         print("More features")
-        bye()
-        os.system("python3 Help/morefeatures.py")
+        #bye()
+        #os.system("python3 Help/morefeatures.py")
         
     elif(y==-160):
         print("Exit")
@@ -122,7 +122,7 @@ def press():
         
 
         bye()
-        os.system("python3 mainmenu.py")
+        os.system("python3 main.py")
         sys.exit()
                 
 onkey(up,"Up")

@@ -78,7 +78,7 @@ goto(-300,-300)
 write(" Press  Enter  To  Continue",False,align='left',font=("Domestic Manners",32,"bold"))
 def Enter():
     bye()
-    os.system("python3 mainmenu.py")
+    os.system("python3 main.py")
 onkey(Enter,"Return")
 listen()
 

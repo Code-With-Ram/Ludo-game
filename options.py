@@ -4,6 +4,8 @@ import turtle
 import time
 import os
 import pickle
+import pygame
+pygame.init()
 
 setup(width=1500,height=1500,startx=0,starty=0)
 
@@ -109,12 +111,12 @@ def press():
         #os.system("amixer set Master 0%")
         if not mute:
             pygame.mixer.music.set_volume(0.0)
-        else
+        else:
             pygame.mixer.music.set_volume(1.0)
     elif(y==-160):
         bye()
         pygame.mixer.music.stop()
-        os.system("python3 mainmenu.py")
+        os.system("python3 main.py")
                 
 onkey(up,"Up")
 onkey(down,"Down")

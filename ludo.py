@@ -1514,7 +1514,7 @@ def escape(x,y):
     if(messagebox.askyesno("Quit","Do you want to quit game?")):
         os.system("play Audio/misc_menu_4.mp3&")
         bye()
-        os.system("python3 mainmenu.py")
+        os.system("python3 main.py")
     else:
         os.system("play Audio/misc_menu.mp3&")
 
